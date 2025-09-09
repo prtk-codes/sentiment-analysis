@@ -1,0 +1,41 @@
+% Author - Jon Arnt Kårstad, NTNU IMT
+\documentclass{article}
+
+% Importing settings from our file "setup.sty"
+\usepackage{setup}
+
+% Beginning of document
+\begin{document}
+
+% Inserting title page
+\import{./}{title}
+
+% Inserting table of contents
+\tableofcontents
+
+% Inserting list of figures & list of tables
+
+
+% Defining main matter settings (Norsk: innstillinger for hoveddelen av teksten)
+\mainmatter
+
+% Introduction explaining this LaTeX-template
+\import{./Sections/}{Abstract}
+\newpage
+\import{./Sections/}{Introduction}
+\newpage
+% System Analysis added from an external tex-file, here located in ./Sections/
+\import{./Sections/}{System_Analysis}
+\newpage
+\import{./Sections/}{System_design}
+\newpage
+\import{./Sections/}{System_Implementation}
+\newpage
+\import{./Sections/}{work_to_be_done}
+\newpage
+\import{./Sections}{Reference}
+% Inserting appendix with separate settings
+\addappendix
+\import{./Appendices/}{example_appendix}
+% End of document
+\end{document}
