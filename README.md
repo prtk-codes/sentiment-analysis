@@ -20,5 +20,4 @@ This project is a **Sentiment Analysis application** that classifies text into p
 - Market research and brand reputation management.  
 - Enhancing chatbots and virtual assistants with emotion detection.  
 
-## 📊 Example Output  
-**Input:**  
+
